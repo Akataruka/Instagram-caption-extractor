@@ -6,6 +6,7 @@ Now you can directly extract the caption using this web app and copy the caption
 
 ## Tech stack
 Web scraping using **Beautiful Soup**<br/>
+HTTP response handling using **response**<br/>
 Web app creation using **Streamlit**
 
 ## Usage
