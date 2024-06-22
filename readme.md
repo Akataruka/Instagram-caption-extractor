@@ -1,6 +1,6 @@
 # Instagram-Caption-Extractor using Streamlit
 
-**A web app to extract the caption of the instagram reels.** <br/>
+**It is a Streamlit based application that allows users to extract the caption of the instagram reels.** <br/>
 No more need to save the reel for its caption and later search for it.<br/>
 Now you can directly extract the caption using this web app and copy the caption to save in local device for easier accessibility.
 
@@ -9,18 +9,33 @@ Web scraping using **Beautiful Soup**<br/>
 HTTP response handling using **response**<br/>
 Web app creation using **Streamlit**
 
-## Usage
+## Installation
 
-To run the app, you will need to have Python installed on your machine. You can install the required packages by running the following command in your terminal:
+1. Clone the repository:
 
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    git clone https://github.com/yourusername/mysql-chatbot.git
+    cd mysql-chatbot
+    ```
 
-Once you have installed the required packages, you can run the app by running the following command in your terminal:
+2. Create and activate a virtual environment:
 
-```bash
-streamlit run app.py
-```
+    ```bash
+    python -m venv venv
+    source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
+    ```
+    
+3. Install the dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. Once you have installed the required packages, you can run the app by running the following command in your terminal:
+
+    ```bash
+    streamlit run app.py
+    ```
 
 This will start the Streamlit app, and you will be able to interact with the chatbot in your web browser.
+
